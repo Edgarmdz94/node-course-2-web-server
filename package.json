@@ -1,10 +1,10 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Edgar Mendoza",
   "license": "ISC",
@@ -12,5 +12,14 @@
     "express": "^4.16.3",
     "hbs": "^4.0.1",
     "nodemon": "^1.18.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edgarmdz94/node-course-2-web-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Edgarmdz94/node-course-2-web-server/issues"
+  },
+  "homepage": "https://github.com/Edgarmdz94/node-course-2-web-server#readme",
+  "description": ""
 }
